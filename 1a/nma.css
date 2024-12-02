@@ -1,0 +1,372 @@
+
+
+
+h1{
+    text-align:right;
+    color: azure;
+
+}
+Affiliation
+    margin:10;
+    padding:10;
+}
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+header{
+    background-color:rgb(175, 175, 174);
+    color:black;
+    text-align:center;
+    padding:1rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo img{
+    max-width:100px;
+    height:auto;
+}
+.header-content{
+    text-allign: left:
+}
+nav{
+    background-color:slategrey;
+    justify-content: space-between;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+    justify-content;center;
+    padding:1rem,0;
+}
+.menu li{
+    margin:1rem;
+    position: relative;
+}
+.menu a{
+    color:black;
+    text-decoration: none;
+    transition:color 0.3s;
+}
+.menu a:hover{
+    color:black;
+}
+.submenu-content{
+    display:none;
+    positionSocial-links a{
+        color: white;
+        margin: 5px;
+        }
+    
+    
+    .menu button, .Social-links button{
+        background-color: white;
+        border-style:solid;
+        border-color:rgb(45, 45, 131) ;
+        color:rgb(45, 45, 131) ;
+        height:20px;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        transition: box-shadow 0.15;
+    }
+        
+    
+    .menu button:hover, .Social-links button:hover{
+        background-color:white;
+        box-shadow: 5px 6px 5px black;
+    }
+    
+    .end button{
+        text-align: center;
+        border-style: dotted;
+        background-color:white;
+        color: black;
+        height:50px;
+        width: 50px;
+        border-radius: 25px;
+        transition: box-shadow 0.15;
+    }
+    .end button:hover{
+        background-color: red;
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    .copy{
+        text-align: center;
+    }
+    
+    @media screen and (max-width:768px){
+        header{
+            flex-direction: column;
+        }
+    
+    
+    .logo{
+        margin-bottom: 1rem;
+    }};Social-links a{
+        color: white;
+        margin: 5px;
+        }
+    
+    
+    .menu button, .Social-links button{
+        background-color: white;
+        border-style:solid;
+        border-color:rgb(45, 45, 131) ;
+        color:rgb(45, 45, 131) ;
+        height:20px;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        transition: box-shadow 0.15;
+    }
+        
+    
+    .menu button:hover, .Social-links button:hover{
+        background-color:white;
+        box-shadow: 5px 6px 5px black;
+    }
+    
+    .end button{
+        text-align: center;
+        border-style: dotted;
+        background-color:white;
+        color: black;
+        height:50px;
+        width: 50px;
+        border-radius: 25px;
+        transition: box-shadow 0.15;
+    }
+    .end button:hover{
+        background-color: red;
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    .copy{
+        text-align: center;
+    }
+    
+    @media screen and (max-width:768px){
+        header{
+            flex-direction: column;
+        }Social-links a{
+            color: white;
+            margin: 5px;
+            }
+        
+        
+        .menu button, .Social-links button{
+            background-color: white;
+            border-style:solid;
+            border-color:rgb(45, 45, 131) ;
+            color:rgb(45, 45, 131) ;
+            height:20px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: box-shadow 0.15;
+        }
+            
+        
+        .menu button:hover, .Social-links button:hover{
+            background-color:white;
+            box-shadow: 5px 6px 5px black;
+        }
+        
+        .end button{
+            text-align: center;
+            border-style: dotted;
+            background-color:white;
+            color: black;
+            height:50px;
+            width: 50px;
+            border-radius: 25px;
+            transition: box-shadow 0.15;
+        }
+        .end button:hover{
+            background-color: red;
+            box-shadow: 2px 2px 2px black;
+        }
+        
+        .copy{
+            text-align: center;
+        }
+        
+        @media screen and (max-width:768px){
+            header{
+                flex-direction: column;
+            }
+        
+        
+        .logo{
+            margin-bottom: 1rem;
+        }}
+    
+    
+    .logo{
+        margin-bottom: 1rem;
+    }}
+    left:0;
+    background-color:cornsilk;
+    z-index:1;
+}
+.submenu:hover .submenu-content{
+    display:block;
+}
+
+.a:hover{Social-links a{
+    color: white;
+    margin: 5px;
+    }
+
+
+.menu button, .Social-links button{
+    background-color: white;
+    border-style:solid;
+    border-color:rgb(45, 45, 131) ;
+    color:rgb(45, 45, 131) ;
+    height:20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.15;
+}
+    
+
+.menu button:hover, .Social-links button:hover{
+    background-color:white;
+    box-shadow: 5px 6px 5px black;
+}
+
+.end button{
+    text-align: center;
+    border-style: dotted;
+    background-color:white;
+    color: black;
+    height:50px;
+    width: 50px;
+    border-radius: 25px;
+    transition: box-shadow 0.15;
+}
+.end button:hover{
+    background-color: red;
+    box-shadow: 2px 2px 2px black;
+}
+
+.copy{
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+
+
+.logo{Social-links a{
+    color: white;
+    margin: 5px;
+    }
+
+
+.menu button, .Social-links button{
+    background-color: white;
+    border-style:solid;
+    border-color:rgb(45, 45, 131) ;
+    color:rgb(45, 45, 131) ;
+    height:20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.15;
+}
+    
+
+.menu button:hover, .Social-links button:hover{
+    background-color:white;
+    box-shadow: 5px 6px 5px black;
+}
+
+.end button{
+    text-align: center;
+    border-style: dotted;
+    background-color:white;
+    color: black;
+    height:50px;
+    width: 50px;
+    border-radius: 25px;
+    transition: box-shadow 0.15;
+}
+.end button:hover{
+    background-color: red;
+    box-shadow: 2px 2px 2px black;
+}
+
+.copy{
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+
+
+.logo{
+    margin-bottom: 1rem;
+}}
+    margin-bottom: 1rem;
+}}
+    color: blue;
+}
+main{
+    padding:2rem;
+}
+.department{
+    margin-bottom:2rem;
+}
+footer{
+    text-allign:center;
+    padding:1rem,0;
+    background-color:rgb(104, 103, 100);
+}break
+.social-links a {
+    color: #fff;
+    
+    text-decoration: none;
+    margin: 0 10px;
+
+    }
+    .social-links img{
+        height: 40px;
+        width: 40px;
+    }
+    .z{
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+    }
+    .x{
+     height: 45px;
+     width: 45px;
+    }
+}
+}
+
+    @media screen and (max-width: 768px) {
+    header {
+    flex-direction: column;
+    }
+    .logo {
+    margin-bottom: 1rem;
+    }
+    }
